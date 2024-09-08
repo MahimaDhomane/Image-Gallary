@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Image gallary</title>
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css">
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="header">
+            <h1 class="header">Image Gallary</h1>
+        </div>
+        <div class="image">
+            <div>
+                <a href="#img1">
+                    <img class="img1" src="eating cat.png" alt="Image 1">
+                </a>
+            </div>
+            <div>
+                <a href="#img2">
+                    <img class="img1" src="sleepycat.png" alt="Image 2">
+                </a>
+            </div>
+            <div>
+                <a href="#img3">
+                    <img class="img1" src="snowyowl1.png" alt="Image 3">
+                </a>
+            </div>
+            <div>
+                <a href="#img4">
+                    <img class="img1" src="readingowl.png" alt="Image 4">
+                </a>
+            </div>
+            <div>
+                <a href="#img5">
+                    <img class="img1" src="readingowl2.png" alt="Image 5">
+                </a>
+            </div>
+            <div>
+                <a href="#img6">
+                    <img class="img1" src="snowyowl1.png" alt="Image 6">
+                </a>
+            </div>
+        </div>
+        <div id="img1" class="lightbox">
+            <a href="#" class="close">&times;</a>
+            <img src="eating cat.png" alt="A cat eating">
+            <div class="description">
+                <h2>A cat eating</h2>
+                <p>Photographer: John Doe</p>
+                <p>Date: January 1, 2023</p>
+            </div>
+            <a href="#img6" class="prev">&#10094;</a>
+            <a href="#img2" class="next">&#10095;</a>
+        </div>
+        <div id="img2" class="lightbox">
+            <a href="#" class="close">&times;</a>
+            <img src="sleepycat.png" alt="A cat eating">
+            <div class="description">
+                <h2>A cat sleeping</h2>
+                <p>Photographer: John Doe</p>
+                <p>Date: January 1, 2023</p>
+            </div>
+            <a href="#img1" class="prev">&#10094;</a>
+            <a href="#img3" class="next">&#10095;</a>
+        </div>
+        <div id="img3" class="lightbox">
+            <a href="#" class="close">&times;</a>
+            <img src="snowyowl1.png" alt="A cat eating">
+            <div class="description">
+                <h2>A sleeping snowy owl</h2>
+                <p>Photographer: John Doe</p>
+                <p>Date: January 1, 2023</p>
+            </div>
+            <a href="#img2" class="prev">&#10094;</a>
+            <a href="#img4" class="next">&#10095;</a>
+        </div>
+        <div id="img4" class="lightbox">
+            <a href="#" class="close">&times;</a>
+            <img src="readingowl.png" alt="A cat eating">
+            <div class="description">
+                <h2>A reading snowy owl</h2>
+                <p>Photographer: John Doe</p>
+                <p>Date: January 1, 2023</p>
+            </div>
+            <a href="#img3" class="prev">&#10094;</a>
+            <a href="#img5" class="next">&#10095;</a>
+        </div>
+        <div id="img5" class="lightbox">
+            <a href="#" class="close">&times;</a>
+            <img src="readingowl2.png" alt="A cat eating">
+            <div class="description">
+                <h2>A reading snowy owl</h2>
+                <p>Photographer: John Doe</p>
+                <p>Date: January 1, 2023</p>
+            </div>
+            <a href="#img4" class="prev">&#10094;</a>
+            <a href="#img6" class="next">&#10095;</a>
+        </div>
+        <div id="img6" class="lightbox">
+            <a href="#" class="close">&times;</a>
+            <img src="snowyowl1.png" alt="A cat eating">
+            <div class="description">
+                <h2>A snowy owl sleeping</h2>
+                <p>Photographer: John Doe</p>
+                <p>Date: January 1, 2023</p>
+            </div>
+            <a href="#img5" class="prev">&#10094;</a>
+            <a href="#img1" class="next">&#10095;</a>
+        </div>
+        <div class="overlay"></div>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    </body>
+</html>
